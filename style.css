@@ -161,7 +161,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 #footer{
 	background-color:#29292d;
 }
-#hero-bloc h1,#hero-bloc h3,#bloc-5 h3,#bloc-5 h3,#bloc-5 h3,#bloc-5 h3{
+#hero-bloc h1,#hero-bloc h3,#bloc-5 h3,#bloc-5 h3,#bloc-5 h3,#bloc-5 h3,#bloc-5 h3,#bloc-5 h3,#bloc-5 h3{
 	color:#29292d;
 }
 #hero-bloc h1{
@@ -194,6 +194,8 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 #bloc-5 h2{
 	font-family: Domine;
+	font-size: 34px;
+	line-height: 37px;
 }
 
 
