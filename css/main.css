@@ -1,0 +1,161 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Domine:700);
+
+
+h1, h2, h3, h4 {
+   font-family: 'Domine', serif;
+}
+
+
+
+
+
+footer a, footer a:hover, footer a:visited {
+   color: #eee;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+
+ .container .small {
+   font-size: x-large;
+    padding-top: 15px;
+}
+
+   .container {
+      max-width: 1170px;
+      padding: 100px 50px;
+
+   }
+
+   .jumbotron {
+
+   }
+
+   .jumbotron h2 {
+      font-family: 'Domine', serif;
+      font-size: 50px;
+      padding: 20px 0 20px 0;
+   }
+
+   .jumbotron p {
+      font-size: 37px;
+   }
+
+
+
+   a:hover {
+      text-decoration: none;
+      cursor: pointer;
+   }
+
+
+   .icon-round {
+      border-color: rgba(0, 0, 0, .7);
+   }
+
+   .icon-md {
+      font-size: 30px !important;
+   }
+
+   .icon-round {
+      margin: 0 auto;
+      border: 1px solid;
+      border-radius: 50%;
+      padding: 32px 30px 26px 30px;
+      min-width: 80px;
+   }
+
+   .icon-round.icon-md {
+      min-width: 92px;
+   }
+
+   .icon-round.icon-lg {
+      min-width: 122px;
+   }
+
+   .icon-round.icon-xl {
+      min-width: 162px;
+   }
+
+   .parallax {
+      background-attachment: fixed;
+   }
+
+   .mg-md {
+      margin-bottom: 30px;
+   }
+
+   .a-btn {
+      font-size: 14px;
+      font-weight: normal;
+      padding: 6px 10px 6px 0;
+      line-height: 1.42857143;
+      display: inline-block;
+   }
+
+   .text-center .a-btn {
+      padding: 6px 0;
+   }
+
+   .a-block {
+      width: 100%;
+      text-align: left;
+   }
+
+
+footer {
+   background: rgba(0, 0, 0, 0.7);
+   color: #eee;
+   padding: 30px;
+   margin-top: 30px;
+}
+
+footer a, footer a:hover, footer a:visited {
+   color: #eee;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+
+
+
+@media (max-width: 767px) {
+
+
+   .container{
+
+      padding:10px;
+
+   }
+
+
+   .jumbotron h2 {
+      font-family: 'Domine', serif;
+      font-size: 30px;
+      font-weight: bolder;
+   }
+
+   .jumbotron p {
+      font-size: 18px;
+   }
+
+   footer {
+      background: rgba(0, 0, 0, 0.7);
+      color: #eee;
+      padding: 10px;
+      margin-top: 20px;
+   }
+
+   .text-center {
+      text-align: left;
+   }
+}
+
